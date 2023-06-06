@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    height: 83%;
+    background-color: #FFFAE2;
+}
+
+header a img {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+}
+
+.navbar {
+    background-color: #FEFCAD;
+    ul {
+        list-style: none;
+        text-align: center;
+        font-family: 'Signika', sans-serif;
+        li {
+            display: inline-block;
+            padding: 20px;
+        }
+    }
+}
+
+.section1 {
+    height: 75%;
+    .section1-video {
+        height: 600px;
+        position: relative;
+        overflow: hidden;
+        video {
+            width: 100%;
+        }
+    }
+}
+
+.section2 {
+   height: 25%;
+   .section2-box-text {
+    h2{
+        font-family: 'Signika', sans-serif;
+        font-size: 50px;
+    }
+    p {
+        font-family: 'Nunito', sans-serif;
+        font-size: 20px;
+        padding-top: 10px;
+    }
+}
+}
+
+.redes {
+    background-color: #FEFCAD;
+    height: 110px;
+    a img {
+        height: 50px;
+        width: 50px;
+        padding: 2.5px;
+        
+    }
+}
+
+.form {
+    font-family: 'Nunito', sans-serif;
+}
+
+.title-contacto {
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.faq {
+    font-family: 'Nunito', sans-serif;
+    width: 50%;
+    float: left;
+    section {
+        height: 33.3%;
+    }
+    h2 {
+        font-size: 35px;
+        padding-bottom: 10px;
+    }
+    p {
+        font-size: 18px;
+    }
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 400px 400px 400px 400px;
+    column-gap: 10px;
+    row-gap: 0px;
+}
+
+.grid-item {
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    img {
+        height: 300px;
+        width: 310px;
+        margin: 10px;
+        margin-bottom: 0;
+    }
+    .grid-item_info {
+        margin-left: 10px;
+        button {
+            background-color: bisque;
+        }
+    }
+}
+
+@media screen and (max-width:600px) {
+    .grid-container {
+        width: 100%;
+        display: block;
+    }
+
+    .faq-img img {
+        height: 0;
+        width: 0;
+    }
+}
+
+.container {
+    height: 50%;
+    margin: 0;
+}
+
+.con-container {
+    height: 100%;
+}
+
+
+.col-md-3 {
+    padding-bottom: 10px;
+    font-family: Nunito;
+    img {
+        width: 100%;
+    }
+}
+
